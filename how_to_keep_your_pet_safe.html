@@ -1,0 +1,462 @@
+<style wfd-invisible="true">
+    * {
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        font-size: 28px;
+        color: #79c200;
+        margin-bottom: 18px;
+    }
+    
+    h3 {
+        font-size: 16px;
+        font-family: "CircularStd-Book";
+        margin: 22px 0;
+    }
+    
+    .h3ulnumeros {
+        margin-bottom: 0px;
+        font-weight: bolder !important;
+    }
+    
+    .puntocolor {
+        color: #79c200;
+        font-size: 6px;
+        vertical-align: middle;
+    }
+    
+    h4 {
+        font-size: 16px;
+        margin: 0 0 5px;
+        color: #79c200;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+        margin: 0px 0 25px;
+        color: #666;
+    }
+    
+    .source {
+        font-size: 14px;
+    }
+    
+    p span {
+        color: #79c200;
+    }
+    
+    strong {
+        color: black;
+    }
+    
+    p span.heart {
+        color: #79c200;
+        background-image: url(https://www.tangofamily.com/wp-content/uploads/2021/10/hearpng.png);
+        background-position: right center;
+        background-size: 16px 14px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        padding-right: 20px;
+    }
+    
+    a {
+        text-decoration: underline;
+        color: #79c200;
+    }
+    
+    .mb24 {
+        margin-top: 0px;
+        margin-bottom: 24px;
+    }
+    
+    p img {
+        position: relative;
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .ulpuntos {
+        position: relative !important;
+        margin: 18px 0px 18px 50px !important;
+        padding: 0px !important;
+        list-style-type: disc !important;
+    }
+    
+    .ulpuntos li {
+        list-style: disc !important;
+    }
+    
+    .ulnumeros {
+        font-family: "CircularStd-Book";
+        position: relative !important;
+        margin: 18px 0px 18px 50px !important;
+        padding: 0px !important;
+        list-style-type: dot !important;
+    }
+    
+    .ulnumeros li {
+        list-style: dot !important;
+    }
+    
+    .ulpuntos li::marker {
+        color: #79c200 !important;
+    }
+    
+    .ulpuntos>li,
+    .ulnumeros>li {
+        color: #666 !important;
+        position: relative !important;
+        font-weight: normal !important;
+    }
+    
+    .ulpuntos.listing-number>li span {
+        color: #84c714 !important;
+        display: inline-block !important;
+        width: 20px !important;
+        margin-left: 0px !important;
+        position: absolute !important;
+        top: 0px !important;
+        left: -20px !important;
+    }
+    
+    .ulpuntos>li .ulpuntos {
+        margin-left: 18px !important;
+    }
+    
+    .ulpuntos>li,
+    .ulnumeros>li {
+        margin-bottom: 20px !important;
+    }
+    
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #83c713;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+    }
+    
+    .z {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        overflow: hidden;
+    }
+    
+    h2.btn2 {
+        background-image: url(https://www.tangofamily.com/wp-content/uploads/2021/10/BANNER-GREEN-2.png);
+        width: 355px;
+    }
+    
+    h2.btn3 {
+        background-image: url(https://www.tangofamily.com/wp-content/uploads/2021/10/BANNER-GREEN-3.png);
+        width: 270px;
+    }
+    
+    blockquote {
+        background-image: url(https://kratos.agency/pawtree/9-most-important-items-to-keep-in-your-pet-s-first-aid-kit/images/bottom.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 118px;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+    
+    blockquote:before,
+    blockquote:after {
+        display: none !important;
+    }
+    
+    blockquote p {
+        color: #ffffff !important;
+        font-size: 14px !important;
+        margin: 0 auto !important;
+        padding: 12px 32px !important;
+        line-height: 19px !important;
+        width: 90% !important;
+    }
+    
+    .register-mark {
+        font-size: 13px;
+        position: relative;
+        top: -2px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .elbr2 {
+            display: none;
+        }
+        img {
+            width: 100% !important;
+        }
+        .mostrardesk {
+            display: none !important;
+        }
+    }
+    
+    @media only screen and (min-width: 769px) {
+        .mostrarmobile {
+            display: none !important;
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        h2 {
+            width: 100% !important;
+        }
+        h1 {
+            font-size: 22px;
+        }
+        blockquote {
+            background-size: 100% 137%;
+            height: 220px;
+        }
+        blockquote p {
+            line-height: 15px !important;
+            font-size: 14px !important;
+            padding: 14px 16px !important;
+        }
+    }
+    /* RECOMENDADOS */
+    
+    .imgRecom {
+        border-radius: 10px;
+        width: 90%;
+    }
+    
+    td {
+        width: 33% !important;
+        align-items: stretch !important;
+        height: 300px !important;
+    }
+    
+    @media (min-width: 679px) {
+        .columnaRecomendados {
+            display: none !important;
+        }
+        .linkRecomendado {
+            display: none !important;
+        }
+        .textoRecomendado {
+            display: none !important;
+        }
+    }
+    
+    @media (max-width: 678px) {
+        .esconderMobile {
+            display: none !important;
+        }
+        .columnaRecomendados {
+            display: block !important;
+        }
+    }
+    .grey{
+        color: #666 !important;
+    }
+    .mb-img{
+        margin-bottom: 14px !important;
+    }
+</style>
+
+
+<p>
+    The holiday season is here! Lights and bright decorations cover every inch of our homes. But it’s our loved ones that truly make the season glow. 
+    <br><br> The magic of the holidays also comes with loud noises, hooman visitors and time spent on preparations. All these activities mean major changes for our fur babies' routine, which can make them anxious and nervous.  
+    <br><br> Our fur babies brighten our lives every day, so spoiling them during the celebrations is a must!
+</p> 
+
+    <h2>Let’s go over 6 tips for making the season as enjoyable for them as it is for us.</h2>
+    <ul class="ulpuntos">
+        <li>
+            <h3><a class="grey" href="#exercise">Exercise</a></h3>
+        </li>
+    
+        <li>
+            <h3 ><a class="grey" href="#homemade">Homemade treats and bonding</a></h3>
+        </li>
+    
+        <li>
+            <h3><a class="grey" href="#guest">Guest-free space</a></h3>
+        </li>
+    
+        <li>
+            <h3><a class="grey" href="#relaxing">Relaxing music</a></h3>
+        </li>
+    
+        <li>
+            <h3><a class="grey" href="#massages">Pet massages</a></h3>
+        </li>
+    
+        <li>
+            <h3><a class="grey" href="#calming">Calming supplements</a></h3>
+        </li>
+    </ul>
+
+
+
+
+<h2 id="exercise">1. A Tired Dog Is A Good Dog</h2>
+
+<p>
+    All dogs are good dogs, but they sometimes have built-up energy that causes destructive behavior. Unfortunately, that can turn into garbage raids and furniture chewing. Exercise is a great way for our fur babies to release some extra energy.
+    <br><br> Like snowflakes, all dog breeds are different, each requiring a certain amount of physical exercise. Daily strolls should help them calm and ease into the festivities better.
+    <br><br> Your fur baby will enjoy being by your side while you gaze at the holiday lights and get into the holiday spirit.
+</p> 
+
+
+
+
+<h2 id="homemade">2. Baking Is Love You Can Taste</h2> 
+
+<img src="https://i.imgur.com/z3uNW56.png" class="mb-img" alt="">
+
+
+
+<p>
+    Because we bake with our hearts as much as we bake with our hands, what better way to show our fur babies a little extra care than a homemade treat infused with love? … Especially when they’re feeling anxious. 
+    <br><br> Make sure you use pet-friendly ingredients, or better yet, a natural and tasty <a href="https://www.pawtree.com/pawtree/product/2472" target="_blank">baking mix made for pets.</a> 
+    <br><br> Not only will they go mutts over the taste of these treats, but they’ll appreciate the bonding time spent preparing them. 
+    <br><br> Pick a holiday-themed recipe, get your fur babies' taste spoons ready, and begin making memories that will last a lifetime.
+</p>
+
+
+
+
+<h2 id="guest">3. Pet Only Area, No Hoomans Allowed</h2>
+
+<p>
+    As you might be greeting guests and family, it is crucial that you create a safe space for your fur babies — their own little sanctuary with their favorite blanket, bed, and toys in a quiet area away from guests. 
+    <br><br> Make sure it is a safe area, and check on them regularly.
+    <br><br> By having a peaceful, cozy and quiet place, they’ll feel calmer by having the option to avoid all the end-of-the-year hustle and bustle.
+</p>
+
+
+
+
+<h2 id="relaxing">4. Relaxation Can Be Music To Their Furry Ears, Literally</h2> 
+
+<img src="https://i.imgur.com/hGI39lD.png" class="mb-img" alt="">
+
+
+
+<p>
+    Smooth, easy-going melodies are soothing to our souls and our fur babies’. Music therapy has the potential to produce a wide variety of emotional responses, and its rhythm can calm them. 
+    <br><br> According to the Society for the Prevention of Cruelty to Animals, low-volume, friendly music can stimulate feelings of safety and security in our furry companions. 
+    <br><br> Classical pieces by Beethoven or Mozart are the perfect choices to reduce their anxiousness and one of the best types of music to calm your dog.
+</p>
+
+
+
+
+<h2 id="massages">5. Your Fur Baby Is One Massage Away From A Good Mood </h2> 
+
+<p>
+    There are few things as powerful and calming as the connection between pet parents and their fur babies; a pet parent’s touch soothes all worries. 
+    <br><br> You don't even have to leave your couch to give a mood-changing massage to your dog!
+    <br><br> Starting at the back of their fluffy ears, use very light pressure to stroke up and down each side of your dog's spine, avoiding the bone. 
+    <br><br> Not surprisingly, head rubs are great too! 
+</p>
+
+
+
+
+<h2 id="calming">6. Sit, Stay and Relax</h2> 
+
+<img src="https://i.imgur.com/AaT9cwf.png" class="mb-img" alt="">
+
+
+
+<p>
+    There are many natural supplements that can ease their nerves and stress without much work. 
+    <br><br> Chamomile, melatonin, and hemp seed oil and powder are ingredients that can help anxious pets during the holidays.
+    <br><br> A <a href="https://www.pawtree.com/pawtree/product/GM2456" target="_blank">single pet formula</a> that contains all of these components and developed by veterinarians will help your furry companions relax the most.
+    <br><br> Because health begins from the inside out, as does relaxation, nutrition is essential for our fur babies' overall well-being. 
+    <br><br> Our furry companions need to be nourished in order to flourish, and it’s hard for them to feel their best if their daily diets lack the necessary nutrients.
+    <br><br> A <a href="https://www.pawtree.com/pawtree/product/2489" target="_blank">broad-spectrum CBD extract</a> developed by veterinarians will provide additional nutrients your fur babies are most likely lacking from food alone. 
+    <br><br> CBD is also known to aid pets with relaxation and calmness. It can also help with separation anxiety in situations where mom and dad are gone for the holidays. 
+    <br><br> With the nutritional and soothing benefits of these supplements, your furry companions will thrive during this holiday season and every day after that.
+</p>
+
+
+
+
+<h2>Here Are Some Extra Tips:</h2> 
+
+<p>
+    Let’s keep in mind that our four-legged family members should be kept away from pine needles, candles, potpourri oils and mistletoe.  
+    <br><br> Additionally, some of our holiday favorites like macadamia nuts, raisins, grapes and ... of course, chocolates are unsafe for them as well. 
+    <br><br> Remember, it’s not what's under the tree that matters, but who’s around it. Our fur babies should feel safe, calm and relaxed during the most wonderful time of the year.  
+    <br><br> Welcome a wooftastic holiday season with these paw-friendly tips! 
+</p>
+
+
+    <p><hr></p>
+
+
+<h2 style="text-align: justify;">You Might Also Like</h2>
+
+<table class="esconderMobile">
+    <tbody>
+        <tr>
+            <td>
+                <img src="https://blog.pawtree.com/Content/images/BlogImages/BlogImage_PrepareYourPetsColdWeather1.png" class="imgRecom" alt="">
+                <p style=" margin-top: 20px;width: 95%;height:75px;">8 Tips to Prepare Your Pets Before Winter Kicks In</p>
+                <a target="_blank" href="https://blog.pawtree.com/blogdetail?urlkey=tips-you-need-to-know-preparing-your-pets-for-winter">Read
+                    More</a>
+            </td>
+
+            <td>
+                <img src="https://i.imgur.com/pPJHrbG.jpg" class="imgRecom" alt="">
+                <p style=" margin-top: 20px;width: 95%;height:75px;">Proactive Pet Parenting: The Must-Read Guide to Purposeful Supplementation</p>
+                <a target="_blank" href="https://blog.pawtree.com/www/blogdetail?urlkey=proactive-pet-parenting">Read
+                    More</a>
+            </td>
+
+            <td>
+                <img src="https://blog.pawtree.com/Content/images/BlogImages/This-Season-Make-Someone's-Pawliday.jpg" class="imgRecom" alt="">
+                <p style=" margin-top: 20px;width: 95%;height:75px;">This Season, Make Someone's Pawliday — Include Your Pet In Holiday Traditions!</p>
+                <a target="_blank" href="https://blog.pawtree.com/blogdetail?urlkey=make-someones-pawliday">Read
+                    More</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<span class="columnaRecomendados" wfd-invisible="true">
+    <img src="https://blog.pawtree.com/Content/images/BlogImages/BlogImage_PrepareYourPetsColdWeather1.png" class="imgRecom" style="width: 100%; margin-top:40px" alt="">
+</span>
+<p class="textoRecomendado" wfd-invisible="true">8 Tips to Prepare Your Pets Before Winter Kicks In
+</p>
+<p><a class="linkRecomendado" target="_blank" href="https://blog.pawtree.com/blogdetail?urlkey=tips-you-need-to-know-preparing-your-pets-for-winter" wfd-invisible="true">
+        Read More
+    </a>
+    <span class="columnaRecomendados" wfd-invisible="true">
+        <img src="https://i.imgur.com/pPJHrbG.jpg" class="imgRecom" style="width: 100%; margin-top:40px" alt="">
+    </span>
+</p>
+<p class="textoRecomendado" wfd-invisible="true">Proactive Pet Parenting: The Must-Read Guide to Purposeful Supplementation
+</p>
+<p>
+    <a class="linkRecomendado" target="_blank" href="https://blog.pawtree.com/www/blogdetail?urlkey=proactive-pet-parenting" wfd-invisible="true">Read More</a>
+
+    <span class="columnaRecomendados" wfd-invisible="true">
+        <img src="https://blog.pawtree.com/Content/images/BlogImages/This-Season-Make-Someone's-Pawliday.jpg" class="imgRecom" style="width: 100%; margin-top:40px" alt="">
+    </span>
+</p>
+<p class="textoRecomendado" wfd-invisible="true">This Season, Make Someone's Pawliday — Include Your Pet In Holiday Traditions!
+</p>
+<p>
+    <a class="linkRecomendado" target="_blank" href="https://blog.pawtree.com/blogdetail?urlkey=make-someones-pawliday" wfd-invisible="true"> Read More</a>
+</p>
